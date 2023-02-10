@@ -14,11 +14,5 @@ public void myFractal(int x, int y, int siz){
    myFractal(x-siz/2, y+siz, siz/3);
    myFractal(x+siz/2,y-siz,siz/3);
    myFractal(x-siz/3, y+siz, siz/3);
-   myFractal(x+siz/3,y-siz,siz/3);
-   myFractal(x-siz/4, y+siz, siz/3);
-   myFractal(x+siz/4,y-siz,siz/3);
-   myFractal(x-siz/7, y+siz, siz/3);
-   myFractal(x+siz/7,y-siz,siz/3);
-   myFractal(x-siz/9, y+siz, siz/3);
  }
 }
